@@ -40,9 +40,13 @@ This project is a Node.js application with a REST API that includes authenticati
     ```bash
     npm install
 
-4. Set up environment variables:
+## Setup Environment Variables
 
--Create a .env file in the root directory and add the following:
+To configure the application, you'll need to set up environment variables. Follow these steps:
+
+1. Create a `.env` file in the root directory of the project.
+
+2. Add the following environment variables to the `.env` file:
 
    ```env
    MONGO_URI=<your-mongodb-connection-string>
