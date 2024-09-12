@@ -63,7 +63,6 @@ To configure the application, you'll need to set up environment variables. Follo
 
 The server will run on port 3001 (or the port specified in your .env file).
 
-2.  Use the API:
 
 # Authentication API:
 
@@ -80,7 +79,7 @@ The server will run on port 3001 (or the port specified in your .env file).
 
 ## Testing
 
-Run tests:
+1. Run tests:
      ```bash
     npm test
     
