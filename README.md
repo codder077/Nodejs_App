@@ -81,7 +81,7 @@ The server will run on port 3001 (or the port specified in your .env file).
 ## Testing
 
 Run tests:
-    ```bash
+     ```bash
     npm test
     
    This command will run all tests using Jest. Ensure the server is not running on the test port before executing the tests.
