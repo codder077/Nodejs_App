@@ -45,11 +45,10 @@ This project is a Node.js application with a REST API that includes authenticati
 -Create a .env file in the root directory and add the following:
 
 .env
-    ```bash
-    MONGO_URI=<your-mongodb-connection-string>
-    ACCESS_TOKEN_SECRET=<your-access-token-secret>
-    REFRESH_TOKEN_SECRET=<your-refresh-token-secret>
-    PORT=3001
+MONGO_URI=<your-mongodb-connection-string>
+ACCESS_TOKEN_SECRET=<your-access-token-secret>
+REFRESH_TOKEN_SECRET=<your-refresh-token-secret>
+PORT=3001
 
 
 ## Usage
@@ -58,7 +57,7 @@ This project is a Node.js application with a REST API that includes authenticati
     ```bash
     npm start
 
-The server will run on port 3001 (or the port specified in your .env file).
+   The server will run on port 3001 (or the port specified in your .env file).
 
 2.  Use the API:
 
@@ -81,4 +80,4 @@ Run tests:
     ```bash
     npm test
     
-This command will run all tests using Jest. Ensure the server is not running on the test port before executing the tests.
+   This command will run all tests using Jest. Ensure the server is not running on the test port before executing the tests.
